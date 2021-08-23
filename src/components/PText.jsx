@@ -12,7 +12,7 @@ const PStyle = styled.div`
   }
 `;
 
-export function Ptext({ children }) {
+export function PText({ children }) {
   return (
     <PStyle>
       <p>{children}</p>
