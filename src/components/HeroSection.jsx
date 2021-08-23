@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.png';
+import PortaImg from '../assets/images/PortafolioMe.jpg';
 import { Button } from './Button';
 import { PText } from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
@@ -154,7 +155,7 @@ export function HeroSection() {
               <span className="hero__name">Pedro Moreno</span>
             </h1>
             <div className="hero__img">
-              <img src={HeroImg} alt="" />
+              <img src={PortaImg} alt="" />
             </div>
             <div className="hero__info">
               <PText>
