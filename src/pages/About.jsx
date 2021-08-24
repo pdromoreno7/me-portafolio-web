@@ -42,7 +42,8 @@ const AboutPageStyles = styled.div`
   }
   .right {
     img {
-      border: 2px solid var(--gray-1);
+      border-radius: 10px;
+      /* border: 2px solid var(--gray-1); */
     }
   }
   .about__info__items {
@@ -81,7 +82,7 @@ export function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Pedro Moreno</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
