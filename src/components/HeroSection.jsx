@@ -163,7 +163,7 @@ export function HeroSection() {
           <div className="container">
             <div className="hero__content">
               <h1 className="hero__heading">
-                <span>Hello, This is</span>
+                {/* <span>Portafolio</span> */}
                 <span className="hero__name">Pedro Moreno</span>
               </h1>
               <div className="hero__img">
@@ -171,11 +171,11 @@ export function HeroSection() {
               </div>
               <div className="hero__info">
                 <PText>
-                  I am working as a freelance web designer and developer for 4
-                  years. I love to design and make new web experiences for the
-                  people.
+                  Hola! Mi nombre es Pedro Nel Moreno Alvarez. Soy FronEnd
+                  Developer, creador de contenido digital y este es mi
+                  portaforlio web <strong>¡Bienvenido!</strong>
                 </PText>
-                <Button btnText="see my works" btnLink="/projects" />
+                <Button btnText="Ver Proyectos" btnLink="/projects" />
               </div>
             </div>
 

@@ -84,11 +84,10 @@ export function About() {
               <p className="about__subheading">
                 Hi, I am <span>Pedro Moreno</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
+                  I am from Turbaco, Colombia. I love art and design. I always
                   try to design stuff with my unique point of view. I also love
                   to create things that can be usefull to others.
                   <br /> <br />
