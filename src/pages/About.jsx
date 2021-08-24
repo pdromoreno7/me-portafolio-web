@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/About-3.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 import { Button } from '../components/Button';
