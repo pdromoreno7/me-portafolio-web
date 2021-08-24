@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 // import HeroImg from '../assets/images/hero.png';
-import PortaImg from '../assets/images/PortafolioMe.jpg';
+import PortaImg from '../assets/images/HeroPhoto_2.jpg';
 import { Button } from './Button';
 import { PText } from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
