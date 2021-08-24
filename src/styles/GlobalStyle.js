@@ -38,6 +38,11 @@ const GlobalStyles = createGlobalStyle`
     width: 90%;
     margin: 0 auto;
   }
+  .superCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 /* Smooth Scroll  */
   [data-scrollbar] {
     height: 100vh;

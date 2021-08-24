@@ -18,6 +18,12 @@ const HeroStyles = styled.div`
     justify-content: center;
     position: relative;
   }
+  .hero__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .hero__heading {
     font-size: 2rem;
     margin-bottom: -4rem;
@@ -40,7 +46,10 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: 4rem;
+    /* margin-top: -18rem; */
+
+    /* text-align: center; */
   }
   .hero__social,
   .hero__scrollDown {
@@ -150,21 +159,24 @@ export function HeroSection() {
       <HeroStyles>
         <div className="hero">
           <div className="container">
-            <h1 className="hero__heading">
-              <span>Hello, This is</span>
-              <span className="hero__name">Pedro Moreno</span>
-            </h1>
-            <div className="hero__img">
-              <img src={PortaImg} alt="" />
+            <div className="hero__content">
+              <h1 className="hero__heading">
+                <span>Hello, This is</span>
+                <span className="hero__name">Pedro Moreno</span>
+              </h1>
+              <div className="hero__img">
+                <img src={PortaImg} alt="" />
+              </div>
+              <div className="hero__info">
+                <PText>
+                  I am working as a freelance web designer and developer for 4
+                  years. I love to design and make new web experiences for the
+                  people.
+                </PText>
+                <Button btnText="see my works" btnLink="/projects" />
+              </div>
             </div>
-            <div className="hero__info">
-              <PText>
-                I am working as a freelance web designer and developer for 4
-                years. I love to design and make new web experiences for the
-                people.
-              </PText>
-              <Button btnText="see my works" btnLink="/projects" />
-            </div>
+
             <div className="hero__social">
               <div className="hero__social__indicator">
                 <p>Follow</p>
