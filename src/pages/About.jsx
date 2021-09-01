@@ -111,38 +111,38 @@ export function About() {
           </div>
           <div className="about__info__items">
             <div className="about__info__item">
-              <h1 className="about__info__heading">Education</h1>
+              <h1 className="about__info__heading">Educación</h1>
 
               <AboutInfoItem
-                title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                title="Escuelas"
+                items={[
+                  'Sena',
+                  'Fundación Universitaria Tecnológico Comfenalco',
+                ]}
               />
-              <AboutInfoItem
-                title="Collage"
-                items={['BAF Shaheen College Chattogram']}
-              />
-              <AboutInfoItem
+              <AboutInfoItem title="Plataformas" items={['Platzi']} />
+              {/* <AboutInfoItem
                 title="Varsity"
                 items={['University Of Chitiagong']}
-              />
+              /> */}
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">My Skills</h1>
+              <h1 className="about__info__heading">Habilidades</h1>
 
               <AboutInfoItem
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
-              <AboutInfoItem
+              {/* <AboutInfoItem
                 title="BackEnd"
                 items={['Node', 'Express', 'PHP']}
-              />
+              /> */}
               <AboutInfoItem
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['Figma', 'Photoshop', 'Ilustrator']}
               />
             </div>
-            <div className="about__info__item">
+            {/* <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
               <AboutInfoItem
@@ -157,7 +157,7 @@ export function About() {
                 title="2016-"
                 items={['Freelance web Developer']}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <ContactBanner />
