@@ -30,7 +30,7 @@ export default function ContactBanner() {
           <div className="contactBanner__wrapper superCenter">
             <PText>¿Tienes algo en mente?</PText>
             {/* <h3 className="contactBanner__heading">Contactatame</h3> */}
-            <Button btnText="Contactame" btnLink="/contact" />
+            <Button btnText="Contactos" btnLink="/contact" />
           </div>
         </div>
       </ContactBannerStyles>

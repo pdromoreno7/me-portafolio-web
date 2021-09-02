@@ -24,6 +24,22 @@ export function SkillsSection() {
     <SkillsSectionStyles>
       <div className="skill__info__items">
         <div className="skill__info__item">
+          <h1 className="skill__info__heading">Habilidades</h1>
+
+          <AboutInfoItem
+            title="FrontEnd"
+            items={['HTML', 'CSS', 'SASS', 'JavaScript', 'REACT.JS']}
+          />
+          {/* <AboutInfoItem
+                title="BackEnd"
+                items={['Node', 'Express', 'PHP']}
+              /> */}
+          <AboutInfoItem
+            title="Design"
+            items={['Figma', 'Photoshop', 'Ilustrator']}
+          />
+        </div>
+        <div className="skill__info__item">
           <h1 className="skill__info__heading">Educación</h1>
 
           <AboutInfoItem
@@ -36,22 +52,7 @@ export function SkillsSection() {
                 items={['University Of Chitiagong']}
               /> */}
         </div>
-        <div className="skill__info__item">
-          <h1 className="skill__info__heading">Habilidades</h1>
 
-          <AboutInfoItem
-            title="FrontEnd"
-            items={['HTML', 'CSS', 'JavaScript', 'REACT']}
-          />
-          {/* <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              /> */}
-          <AboutInfoItem
-            title="Design"
-            items={['Figma', 'Photoshop', 'Ilustrator']}
-          />
-        </div>
         {/* <div className="about__info__item">
               <h1 className="about__info__heading">Experiences</h1>
 
