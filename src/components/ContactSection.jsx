@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { MdEmail, MdLocalPhone } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
+import { SiLinkedin } from 'react-icons/si';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
@@ -55,12 +56,22 @@ export default function ContactSection() {
   return (
     <ContactSectionStyle>
       <div className="container">
-        <SectionTitle heading="contact" subheading="get in touch" />
+        <SectionTitle heading="contactos" subheading="Ponerse en contacto" />
         <div className="contactSection__wrapper">
           <div className="left">
-            <ContactInfoItem icon={<MdLocalPhone />} text="+8801231" />
+            <a
+              href="https://www.linkedin.com/in/pedro-moreno-alvarez/"
+              target="_blank "
+            >
+              {' '}
+              <ContactInfoItem
+                icon={<SiLinkedin />}
+                text="Pedro Nel Moreno Alvarez"
+              />
+            </a>
+
             <ContactInfoItem icon={<MdEmail />} text="webcifar@gmail.com" />
-            <ContactInfoItem text="Chittagong, Bangladesh" />
+            <ContactInfoItem text="Turbaco, Colombia" />
           </div>
           <div className="right">
             <ContactForm />

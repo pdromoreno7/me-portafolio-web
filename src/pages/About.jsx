@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 import AboutImg from '../assets/images/AboutSection.jpg';
-import AboutInfoItem from '../components/AboutInfoItem';
+// import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 import { Button } from '../components/Button';
 import { PText } from '../components/PText';
+import { SkillsSection } from '../components/SkillsSection';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -109,7 +110,7 @@ export function About() {
               <img src={AboutImg} alt="me" />
             </div>
           </div>
-          <div className="about__info__items">
+          {/* <div className="about__info__items">
             <div className="about__info__item">
               <h1 className="about__info__heading">Educación</h1>
 
@@ -121,10 +122,6 @@ export function About() {
                 ]}
               />
               <AboutInfoItem title="Plataformas" items={['Platzi']} />
-              {/* <AboutInfoItem
-                title="Varsity"
-                items={['University Of Chitiagong']}
-              /> */}
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">Habilidades</h1>
@@ -133,32 +130,14 @@ export function About() {
                 title="FrontEnd"
                 items={['HTML', 'CSS', 'JavaScript', 'REACT']}
               />
-              {/* <AboutInfoItem
-                title="BackEnd"
-                items={['Node', 'Express', 'PHP']}
-              /> */}
+
               <AboutInfoItem
                 title="Design"
                 items={['Figma', 'Photoshop', 'Ilustrator']}
               />
             </div>
-            {/* <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
-
-              <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
-              />
-              <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
-              />
-              <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
-              />
-            </div> */}
-          </div>
+          </div> */}
+          <SkillsSection />
         </div>
         <ContactBanner />
       </AboutPageStyles>
