@@ -45,7 +45,11 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
   return (
     <>
-      <FormStyle>
+      <FormStyle
+        enctype="text/plain"
+        action="mailto:pdro.moreno96@gmail.com"
+        method="post"
+      >
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -82,7 +86,7 @@ export default function ContactForm() {
             />
           </label>
         </div>
-        <button type="submit">Send</button>
+        <button type="submit">Enviar</button>
       </FormStyle>
     </>
   );
