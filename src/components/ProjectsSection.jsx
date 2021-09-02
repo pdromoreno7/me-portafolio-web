@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem';
 import SectionTitle from './SectionTitle';
 import 'swiper/swiper-bundle.min.css';
 import projects from '../assets/data/projects';
+import { SkillsSection } from './SkillsSection';
 // install Swiper modules
 SwiperCore.use([Navigation]);
 
@@ -96,6 +97,7 @@ export function ProjectsSection() {
             ))}
           </Swiper>
         </div>
+        <SkillsSection />
       </div>
     </ProjectSectionStyle>
   );

@@ -4,6 +4,7 @@ import ContactBanner from '../components/ContactBanner';
 // import Footer from '../components/Footer';
 import { HeroSection } from '../components/HeroSection';
 import { ProjectsSection } from '../components/ProjectsSection';
+// import { SkillsSection } from '../components/SkillsSection';
 
 export function Home() {
   return (
@@ -11,6 +12,7 @@ export function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
+      {/* <SkillsSection /> */}
       <ContactBanner />
       {/* <Footer /> */}
     </>
