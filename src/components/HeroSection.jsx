@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 // import HeroImg from '../assets/images/hero.png';
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 import PortaImg from '../assets/images/HeroPhoto_2.jpg';
 import { Button } from './Button';
 import { PText } from './PText';
@@ -96,7 +97,7 @@ const HeroStyles = styled.div`
         a {
           display: inline-block;
           font-size: 1.6rem;
-          transform: rotate(-90deg);
+          /* transform: rotate(-90deg); */
           letter-spacing: 5px;
           margin-bottom: 2rem;
         }
@@ -188,38 +189,38 @@ export function HeroSection() {
                 <ul>
                   <li>
                     <a
-                      href="http://facebook.com/webcifar"
+                      href="https://github.com/pdromoreno7"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      FB
+                      <FaGithub />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="http://twitter.com/webcifar"
+                      href="https://www.linkedin.com/in/pedro-moreno-alvarez/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      TW
+                      <FaLinkedin />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="http://isntagram.com/web_cifar"
+                      href="https://www.instagram.com/pdromoreno7/?hl=es-la"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      IG
+                      <FaInstagram />
                     </a>
                   </li>
                   <li>
                     <a
-                      href="http://webcifar.com"
+                      href="https://twitter.com/pdromoreno7"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      LI
+                      <FaTwitter />
                     </a>
                   </li>
                 </ul>
