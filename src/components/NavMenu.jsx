@@ -31,9 +31,12 @@ const NavMenuStyles = styled.div`
       font-size: 2rem;
       color: var(--gary-1);
       outline: none;
+      :hover {
+        color: var(--HappyColor);
+      }
     }
     .active {
-      color: var(--white);
+      color: var(--HappyColor);
     }
   }
   .mobile-menu-icon {

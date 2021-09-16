@@ -7,7 +7,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --HappyColor:#e8d651;
+    /* colores alternativos: #e0e851 #a2d160 #a8e356*/
+    --HappyColor:#e0e851;
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
@@ -44,6 +45,11 @@ const GlobalStyles = createGlobalStyle`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .border-img {
+    border-right: var(--HappyColor) solid 2px;
+    /* padding: 6px; */
+    /* border-radius:2px; */
   }
 /* Smooth Scroll  */
   [data-scrollbar] {

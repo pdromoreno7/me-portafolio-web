@@ -89,8 +89,8 @@ export function AboutSection() {
             <Button btnText="Mas sobre mi" btnLink="/about" outline />
           </div>
         </div>
-        <div className="aboutSection__right">
-          <img className="aboutImg" src={AboutImg} alt="Img" />
+        <div className="aboutSection__right ">
+          <img className="aboutImg border-img" src={AboutImg} alt="Img" />
         </div>
       </div>
     </AboutSectionStyles>

@@ -106,8 +106,8 @@ export function About() {
               </div>
               <Button btnText="Download CV" btnLink="#" />
             </div>
-            <div className="right">
-              <img src={AboutImg} alt="me" />
+            <div className="right ">
+              <img className="border-img" src={AboutImg} alt="me" />
             </div>
           </div>
           {/* <div className="about__info__items">

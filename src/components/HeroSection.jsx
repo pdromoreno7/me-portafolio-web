@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // import HeroImg from '../assets/images/hero.png';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 import PortaImg from '../assets/images/HeroPhoto_2.jpg';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { PText } from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -96,10 +96,17 @@ const HeroStyles = styled.div`
         margin-bottom: 1rem;
         a {
           display: inline-block;
-          font-size: 1.6rem;
+          font-size: 1.8rem;
           /* transform: rotate(-90deg); */
           letter-spacing: 5px;
           margin-bottom: 2rem;
+
+          :hover {
+            path {
+              color: var(--HappyColor);
+              transition: 1s;
+            }
+          }
         }
       }
     }
@@ -176,7 +183,7 @@ export function HeroSection() {
                   Developer, creador de contenido digital y este es mi
                   portaforlio web <strong>¡Bienvenido!</strong>
                 </PText>
-                <Button btnText="Ver Proyectos" btnLink="/projects" />
+                {/* <Button btnText="Ver Proyectos" btnLink="/projects" /> */}
               </div>
             </div>
 
