@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { FaGithub, FaLink } from 'react-icons/fa';
 import ProjectImg from '../assets/images/projectImg.png';
 
 const ProjectItemStyles = styled.div`
@@ -18,7 +20,7 @@ const ProjectItemStyles = styled.div`
   .projectItem__info {
     margin-top: 1rem;
     background-color: var(--deep-dark);
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 12px;
   }
   .projectItem__title {
@@ -28,7 +30,35 @@ const ProjectItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
+    margin-bottom: 2rem;
   }
+  .projectItem__info-liks {
+    display: flex;
+    /* gap: 20px; */
+    align-items: center;
+    /* margin-bottom: 1rem; */
+    /* justify-content: center; */
+    a {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      p {
+        font-size: 20px;
+      }
+      svg {
+        width: 25px;
+        margin-right: 25px;
+      }
+      :hover {
+        path {
+          color: var(--HappyColor);
+          transition: 1s;
+        }
+      }
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     .projectItem__img {
       height: 350px;
@@ -40,6 +70,8 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  github = 'https://github.com/pdromoreno7',
+  sitio = '',
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +83,14 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        <div className="projectItem__info-liks">
+          <a href={github} target="_blank" alt="Github">
+            <FaGithub />
+          </a>
+          <a href={sitio} target="_blank">
+            <FaLink />
+          </a>
+        </div>
       </div>
     </ProjectItemStyles>
   );

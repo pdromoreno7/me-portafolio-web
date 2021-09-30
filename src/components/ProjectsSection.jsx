@@ -92,6 +92,8 @@ export function ProjectsSection() {
                   title={project.name}
                   img={project.img}
                   desc={project.desc}
+                  github={project.github}
+                  sitio={project.sitio}
                 />
               </SwiperSlide>
             ))}
