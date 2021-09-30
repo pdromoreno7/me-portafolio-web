@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styled from 'styled-components';
-// import HeroImg from '../assets/images/hero.png';
+
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
 import PortaImg from '../assets/images/HeroPhoto_2.jpg';
 // import { Button } from './Button';
@@ -164,12 +166,16 @@ const HeroStyles = styled.div`
 `;
 
 export function HeroSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <>
       <HeroStyles>
         <div className="hero">
           <div className="container">
-            <div className="hero__content">
+            <div data-aos="fade-up" className="hero__content">
               <h1 className="hero__heading">
                 {/* <span>Portafolio</span> */}
                 <span className="hero__name">Pedro Moreno</span>
@@ -187,7 +193,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div className="hero__social">
+            <div data-aos="fade-right" className="hero__social">
               <div className="hero__social__indicator">
                 <p>Follow</p>
                 <img src={SocialMediaArrow} alt="icon" />
@@ -233,7 +239,7 @@ export function HeroSection() {
                 </ul>
               </div>
             </div>
-            <div className="hero__scrollDown">
+            <div data-aos="fade-left" className="hero__scrollDown">
               <p>Scroll</p>
               <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
             </div>

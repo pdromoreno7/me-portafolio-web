@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styled from 'styled-components';
 
 // import AboutImg from '../assets/images/AboutSection.jpg';
@@ -77,12 +79,15 @@ const AboutPageStyles = styled.div`
 `;
 
 export function About() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <AboutPageStyles>
         <div className="container">
           <div className="top-section">
-            <div className="left">
+            <div data-aos="fade-up" className="left">
               <p className="about__subheading">
                 Hola, soy <span>Pedro Moreno</span>
               </p>

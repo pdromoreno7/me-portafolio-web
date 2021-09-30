@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styled from 'styled-components';
 import { Button } from './Button';
 import { PText } from './PText';
@@ -71,10 +73,13 @@ const AboutSectionStyles = styled.div`
 `;
 
 export function AboutSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <AboutSectionStyles>
       <div className="container">
-        <div className="aboutSection__left">
+        <div data-aos="fade-up" className="aboutSection__left">
           <SectionTitle
             subheading="Permítame presentarme"
             heading="Acerca de mí"
