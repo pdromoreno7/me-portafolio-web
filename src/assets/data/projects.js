@@ -17,28 +17,26 @@ const projects = [
     id: uuidv4(),
     name: 'Plaza de Donaciones',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'Landing page para visualizar avances de obras, y hacer donaciones para la comunidad Fuente de Poder. Hecho con React.js.',
     img: PlazaDonaciones,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Portafolio Web',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'Portafolio Web para mi amigo Cristian Vásquez, motion graphics designer. Hecho con HTML, CSS y Javascript',
     img: CrisPortafolio,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+    name: 'Ecommerce Sneakers',
+    desc: 'Maquetación UI de una web ecommerce de tenis ',
     img: EcommerceTenis,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+    name: 'Batatabit',
+    desc: 'Proyecto de maquetación mobile first con Platzi',
     img: BatatabitImg,
   },
 ];

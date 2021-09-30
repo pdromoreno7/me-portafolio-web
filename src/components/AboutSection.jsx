@@ -95,7 +95,7 @@ export function AboutSection() {
           </div>
         </div>
         <div className="aboutSection__right ">
-          <img className="aboutImg border-img" src={AboutImg} alt="Img" />
+          <img className="aboutImg" src={AboutImg} alt="Img" />
         </div>
       </div>
     </AboutSectionStyles>
