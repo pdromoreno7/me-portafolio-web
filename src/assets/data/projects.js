@@ -4,15 +4,9 @@ import PlazaDonaciones from '../images/plazaDonaciones.jpg';
 import CrisPortafolio from '../images/crisPortfolio.png';
 import EcommerceTenis from '../images/ecommerceTenis.png';
 import BatatabitImg from '../images/Batatabit.png';
+import TodoMountain from '../images/TodoMountain.png';
 
 const projects = [
-  // {
-  //   id: uuidv4(),
-  //   name: 'U Tracker',
-  //   desc:
-  //     'An application to track your all data from one place. I developed the website and the mobile app',
-  //   img: UTrackerImg,
-  // },
   {
     id: uuidv4(),
     name: 'Plaza de Donaciones',
@@ -21,6 +15,15 @@ const projects = [
     img: PlazaDonaciones,
     github: 'https://github.com/pdromoreno7/church-plaza-donaciones',
     sitio: 'https://pdromoreno7.github.io/church-plaza-donaciones/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Todo Mountain',
+    desc:
+      'Una app web para hacer Todos, listas de tareas Check y delete. Hecha en React.Js',
+    img: TodoMountain,
+    github: 'https://github.com/pdromoreno7/Todo-Mountain',
+    sitio: 'https://pdromoreno7.github.io/Todo-Mountain/',
   },
   {
     id: uuidv4(),
