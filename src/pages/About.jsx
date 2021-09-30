@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import AboutImg from '../assets/images/AboutSection.jpg';
+// import AboutImg from '../assets/images/AboutSection.jpg';
+import AboutImg from '../assets/images/AbourSection-Web.jpg';
 // import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 import { Button } from '../components/Button';
@@ -83,31 +84,33 @@ export function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Pedro Moreno</span>
+                Hola, soy <span>Pedro Moreno</span>
               </p>
-              <h2 className="about__heading">A Web developer</h2>
+              <h2 className="about__heading">Un FrontEnd developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Turbaco, Colombia. I love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  Soy de Cartagena, Colombia. Amo la tegnologia, el arte y la
+                  ciencias. Siempre intento crear cosas visualmente actractivas
+                  y unicas. Me gusta mucho la idea de poder crear algo que pueda
+                  ayudar a los demas, que aporte algo a este mundo.
                   <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
-                  <br />
+                  Empecé a programar hace 6 años cuando entre a la universidad,
+                  eventualmente deje de hacerlo un poco, hasta que me encontre
+                  este mundo increible del desarrollo web. La programación es
+                  una arte para mi. Lo encuentro realmente interesante y
+                  disfruto el proceso de crear algo desde cero solo codeando.
+                  {/* <br />
                   <br />
                   My vision is to make the world a better place. Now almost
                   everything is becoming better than ever. It is time for us to
                   create more good stuff that helps the world to become a better
-                  place.
+                  place. */}
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
             </div>
             <div className="right ">
-              <img className="border-img" src={AboutImg} alt="me" />
+              <img src={AboutImg} alt="me" />
             </div>
           </div>
           {/* <div className="about__info__items">

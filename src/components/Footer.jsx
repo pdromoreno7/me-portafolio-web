@@ -58,15 +58,11 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Pedro Moreno</h1>
-          <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
-            performance rate.
-          </PText>
+          <PText>Spy un fronEnd web developer de Cartagena, Colombia.</PText>
         </div>
         <div className="footer__col2">
           <FooterCol
-            heading="Important Links"
+            heading="Secciones"
             links={[
               {
                 title: 'Home',
@@ -93,19 +89,19 @@ export default function Footer() {
         </div>
         <div className="footer__col3">
           <FooterCol
-            heading="Contact Info"
+            heading="contacto"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: 'Linkedin',
+                path: 'https://www.linkedin.com/in/pedro-moreno-alvarez/',
               },
               // {
               //   title: 'webcifar@gmail.com',
               //   path: 'mailto:webcifar@gmail.com',
               // },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
-                path: 'http://google.com/maps',
+                title: 'Turbaco, Colombia',
+                path: 'https://goo.gl/maps/pp3sHGmX7sRapLUt9',
               },
             ]}
           />
@@ -114,17 +110,17 @@ export default function Footer() {
           <FooterCol
             heading="social Links"
             links={[
-              {
-                title: 'Facebook',
-                path: 'http://facebook.com',
-              },
+              // {
+              //   title: 'Facebook',
+              //   path: 'http://facebook.com',
+              // },
               {
                 title: 'Twitter',
-                path: 'http://twitter.com',
+                path: 'https://twitter.com/pdromoreno7',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://www.instagram.com/pdromoreno7/?hl=es-la',
               },
             ]}
           />

@@ -12,6 +12,9 @@ const ColStyle = styled.div`
   }
   a {
     font-size: 1.8rem;
+    :hover {
+      color: var(--HappyColor);
+    }
   }
 `;
 
