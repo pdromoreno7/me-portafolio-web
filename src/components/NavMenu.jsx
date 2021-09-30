@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { MdMenu, MdClose } from 'react-icons/md';
@@ -95,9 +97,14 @@ const NavMenuStyles = styled.div`
 export function NavMenu() {
   const [showNav, setShowNav] = useState(false);
 
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <NavMenuStyles>
       <div
+        data-aos="fade"
         className="mobile-menu-icon"
         onClick={() => setShowNav(!showNav)}
         role="button"

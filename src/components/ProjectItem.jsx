@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { FaGithub, FaLink } from 'react-icons/fa';
@@ -73,8 +75,11 @@ export default function ProjectItem({
   github = 'https://github.com/pdromoreno7',
   sitio = '',
 }) {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
-    <ProjectItemStyles>
+    <ProjectItemStyles data-aos="fade">
       <Link to="/projects" className="projectItem__img">
         <img src={img} alt="project img" />
       </Link>
