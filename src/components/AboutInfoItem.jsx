@@ -13,9 +13,11 @@ const AboutItemStyles = styled.div`
     font-size: 2.4rem;
   }
   .items {
+    /* width: 60%; */
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    /* justify-content: space-evenly; */
+    /* gap: 1.5rem; */
     position: absolute;
     left: 18rem;
   }
@@ -23,6 +25,14 @@ const AboutItemStyles = styled.div`
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
+    margin-right: 1.5rem;
+  }
+
+  @media only screen and (max-width: 869px) {
+    .item {
+      /* position: initial; */
+      margin-bottom: 1.5rem;
+    }
   }
   @media only screen and (max-width: 768px) {
     flex-direction: column;
@@ -30,7 +40,7 @@ const AboutItemStyles = styled.div`
     gap: 1rem;
     .items {
       position: initial;
-      gap: 1rem;
+      /* gap: 1rem; */
     }
     .title {
       font-size: 2rem;
