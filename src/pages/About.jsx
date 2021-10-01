@@ -21,6 +21,7 @@ const AboutPageStyles = styled.div`
   }
   .left {
     flex: 3;
+    margin-bottom: 1.5rem;
   }
   .right {
     flex: 2;
