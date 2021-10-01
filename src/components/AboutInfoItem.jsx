@@ -11,6 +11,7 @@ const AboutItemStyles = styled.div`
   margin-top: 3rem;
   .title {
     font-size: 2.4rem;
+    margin-bottom: 1.5rem;
   }
   .items {
     /* width: 60%; */
