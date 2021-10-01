@@ -8,7 +8,7 @@ const ItemStyles = styled.div`
   background-color: var(--deep-dark);
   display: flex;
   align-items: center;
-  gap: 2rem;
+  /* gap: 2rem; */
   border-radius: 8px;
   margin-bottom: 2rem;
   .icon {
@@ -19,6 +19,7 @@ const ItemStyles = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    margin-right: 2rem;
   }
   svg {
     width: 3.5rem;
