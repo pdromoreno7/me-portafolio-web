@@ -28,7 +28,15 @@ export function SkillsSection() {
 
           <AboutInfoItem
             title="FrontEnd"
-            items={['HTML', 'CSS', 'SASS', 'JavaScript', 'REACT.JS']}
+            items={[
+              'HTML',
+              'CSS',
+              'SASS',
+              'JavaScript',
+              'Bootstrap',
+              'GIT',
+              'REACT.JS',
+            ]}
           />
           {/* <AboutInfoItem
                 title="BackEnd"
