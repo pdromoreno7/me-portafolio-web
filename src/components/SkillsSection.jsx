@@ -36,6 +36,7 @@ export function SkillsSection() {
               'Bootstrap',
               'GIT',
               'REACT.JS',
+              'Redux',
             ]}
           />
           {/* <AboutInfoItem

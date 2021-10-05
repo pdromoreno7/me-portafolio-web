@@ -71,7 +71,7 @@ export default function ContactSection() {
               />
             </a>
 
-            <ContactInfoItem icon={<MdEmail />} text="pdro.moreno96@gmail.com" />
+            <ContactInfoItem icon={<MdEmail />} text="pdromorenodev@gmail.com" />
             <ContactInfoItem text="Turbaco, Colombia" />
           </div>
           {/* <div className="right">
