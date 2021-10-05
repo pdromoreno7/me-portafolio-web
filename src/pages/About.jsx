@@ -95,22 +95,16 @@ export function About() {
               <h2 className="about__heading">Un FrontEnd developer</h2>
               <div className="about__info">
                 <PText>
-                  Soy de Cartagena, Colombia. Amo la tegnologia, el arte y la
+                  Soy de Cartagena, Colombia. Amo la tegnología, el arte y la
                   ciencias. Siempre intento crear cosas visualmente actractivas
-                  y unicas. Me gusta mucho la idea de poder crear algo que pueda
-                  ayudar a los demas, que aporte algo a este mundo.
+                  y usables. Me gusta mucho la idea de poder crear algo que
+                  pueda ayudar a los demas, que aporte algo a este mundo.
                   <br /> <br />
                   Empecé a programar hace 6 años cuando entre a la universidad,
-                  eventualmente deje de hacerlo un poco, hasta que me encontre
-                  este mundo increible del desarrollo web. La programación es
+                  eventualmente deje de hacerlo un poco. Regresé dandome cuenta
+                  que el desarrollo web es mundo increíble, la programación es
                   una arte para mi. Lo encuentro realmente interesante y
                   disfruto el proceso de crear algo desde cero solo codeando.
-                  {/* <br />
-                  <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place. */}
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />

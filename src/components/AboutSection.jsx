@@ -80,14 +80,11 @@ export function AboutSection() {
     <AboutSectionStyles>
       <div className="container">
         <div data-aos="fade-up" className="aboutSection__left">
-          <SectionTitle
-            subheading="Permítame presentarme"
-            heading="Acerca de mí"
-          />
+          <SectionTitle subheading="@pdromoreno7" heading="Acerca de mí" />
           <PText>
-            Soy un desarrollador web frontend de Turbaco, Colombia. Creo
+            Soy un desarrollador web frontend de Cartagena, Colombia. Creo
             interfaces graficas web profesionales. Amo todo lo que tiene que ver
-            con tegnologia, ciencias, y arte.
+            con tegnología, ciencias, y arte.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Proyectos" btnLink="/projects" />

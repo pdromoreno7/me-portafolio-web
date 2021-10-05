@@ -187,7 +187,9 @@ export function HeroSection() {
                 <PText>
                   Hola! Mi nombre es Pedro Nel Moreno Alvarez. Soy FronEnd
                   Developer, creador de contenido digital y este es mi
-                  portaforlio web <strong>¡Bienvenido!</strong>
+                  portaforlio web.
+                  <br /> <br />
+                  <strong>¡Welcome!</strong>
                 </PText>
                 {/* <Button btnText="Ver Proyectos" btnLink="/projects" /> */}
               </div>
