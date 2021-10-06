@@ -102,9 +102,16 @@ export function About() {
                   <br /> <br />
                   Empecé a programar hace 6 años cuando entre a la universidad,
                   eventualmente deje de hacerlo un poco. Regresé dandome cuenta
-                  que el desarrollo web es mundo increíble, la programación es
-                  una arte para mi. Lo encuentro realmente interesante y
-                  disfruto el proceso de crear algo desde cero solo codeando.
+                  que el desarrollo web es mundo increíblen lleno de restos y
+                  que constantemente cambia. La programación es una arte para
+                  mi, lo encuentro realmente interesante, disfruto el proceso de
+                  crear algo desde cero solo codeando.
+                  <br /> <br />
+                  Vivo constantemente aprendiendo algo nuevo, y me enfoco en ser
+                  un activo valioso en cualquier equipo que trabaje. Me gusta
+                  ayudar a otras personas, no tengo problemas en sentarme y
+                  explicar cómo funciona algo, estoy siempre dispuesto también a
+                  recibir feedback y poder crecer.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
