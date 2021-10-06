@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styled from 'styled-components';
 import AboutInfoItem from './AboutInfoItem';
 
@@ -20,8 +23,11 @@ const SkillsSectionStyles = styled.section`
 `;
 
 export function SkillsSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
-    <SkillsSectionStyles>
+    <SkillsSectionStyles data-aos="fade">
       <div className="skill__info__items">
         <div className="skill__info__item">
           <h1 className="skill__info__heading">Habilidades</h1>

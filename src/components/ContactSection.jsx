@@ -64,7 +64,7 @@ export default function ContactSection() {
               href="https://www.linkedin.com/in/pedro-moreno-alvarez/"
               target="_blank "
             >
-              {' '}
+              
               <ContactInfoItem
                 icon={<SiLinkedin />}
                 text="Pedro Nel Moreno Alvarez"
@@ -72,7 +72,10 @@ export default function ContactSection() {
             </a>
 
             <ContactInfoItem icon={<MdEmail />} text="pdromorenodev@gmail.com" />
-            <ContactInfoItem text="Turbaco, Colombia" />
+            <a href="https://goo.gl/maps/pp3sHGmX7sRapLUt9" target="_blank ">
+                <ContactInfoItem text="Turbaco, Colombia" />
+            </a>
+           
           </div>
           {/* <div className="right">
             <ContactForm />

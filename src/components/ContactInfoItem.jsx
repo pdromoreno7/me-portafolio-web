@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { MdPlace } from 'react-icons/md';
 import styled from 'styled-components';
 import { PText } from './PText';
@@ -30,8 +32,12 @@ export default function ContactInfoItem({
   icon = <MdPlace />,
   text = 'I need text ',
 }) {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
-    <ItemStyles>
+    <ItemStyles data-aos="fade">
       <div className="icon">{icon}</div>
       <div className="info">
         <PText>{text}</PText>
