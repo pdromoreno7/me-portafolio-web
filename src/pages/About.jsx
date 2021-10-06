@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import styled from 'styled-components';
 
 // import AboutImg from '../assets/images/AboutSection.jpg';
-import AboutImg from '../assets/images/AbourSection-Web.jpg';
+import AboutImg from '../assets/images/yo-WEB-2-black-vertical.jpg';
 // import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 import { Button } from '../components/Button';

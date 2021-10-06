@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import styled from 'styled-components';
 import { Button } from './Button';
 import { PText } from './PText';
-import AboutImg from '../assets/images/AbourSection-Web.jpg';
+import AboutImg from '../assets/images/yo-WEB-2-black-vertical.jpg';
 import SectionTitle from './SectionTitle';
 
 const AboutSectionStyles = styled.div`
