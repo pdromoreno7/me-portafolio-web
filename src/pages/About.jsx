@@ -120,33 +120,7 @@ export function About() {
               <img src={AboutImg} alt="me" />
             </div>
           </div>
-          {/* <div className="about__info__items">
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Educación</h1>
 
-              <AboutInfoItem
-                title="Escuelas"
-                items={[
-                  'Sena',
-                  'Fundación Universitaria Tecnológico Comfenalco',
-                ]}
-              />
-              <AboutInfoItem title="Plataformas" items={['Platzi']} />
-            </div>
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Habilidades</h1>
-
-              <AboutInfoItem
-                title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT']}
-              />
-
-              <AboutInfoItem
-                title="Design"
-                items={['Figma', 'Photoshop', 'Ilustrator']}
-              />
-            </div>
-          </div> */}
           <SkillsSection />
         </div>
         <ContactBanner />

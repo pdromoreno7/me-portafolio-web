@@ -9,12 +9,13 @@ const GlobalStyles = createGlobalStyle`
   :root{
     /* colores alternativos: #e0e851 #a2d160 #a8e356*/
     --HappyColor:#e0e851;
+    --HappyColor2:#e0e851;
     --dark-bg: #262626;
     --gray-1: #BCB4B4;
     --deep-dark: #1E1E1E;
     --gray-2: #363636;
     --white : white;
-    --black: black;
+    --black: #1c1c1c;
   }
   html{
      scroll-behavior: smooth;

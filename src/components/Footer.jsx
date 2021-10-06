@@ -58,7 +58,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Pedro Moreno</h1>
-          <PText>Soy un fronEnd web developer de Cartagena, Colombia.</PText>
+          <PText>Soy un frontend web developer de Cartagena, Colombia.</PText>
         </div>
         <div className="footer__col2">
           <FooterCol
