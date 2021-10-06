@@ -27,7 +27,7 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   button[type='submit'] {
-    background-color: var(--gray-1);
+    background-color: var(--HappyColor);
     color: var(--black);
     font-size: 2rem;
     display: inline-block;
@@ -36,6 +36,11 @@ const FormStyle = styled.form`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+    transition: 1s;
+    :hover {
+      background-color: var(--black);
+      color: var(--gray1);
+    }
   }
 `;
 
@@ -47,42 +52,48 @@ export default function ContactForm() {
     <>
       <FormStyle
         enctype="text/plain"
-        action="mailto:pdro.moreno96@gmail.com"
-        method="post"
+        action="https://formsubmit.co/pdromorenodev@gmail.com"
+        method="POST"
       >
         <div className="form-group">
           <label htmlFor="name">
-            Your Name
+            Tu nombre
             <input
               type="text"
               id="name"
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              required
+              placeholder="nombre"
             />
           </label>
         </div>
         <div className="form-group">
           <label htmlFor="email">
-            Your Email
+            Tu Email
             <input
               type="email"
               id="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
+              placeholder="your@email.com"
             />
           </label>
         </div>
         <div className="form-group">
           <label htmlFor="message">
-            Your message
+            Tu mensaje
             <textarea
               type="text"
               id="message"
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
+              placeholder="Hola..."
             />
           </label>
         </div>

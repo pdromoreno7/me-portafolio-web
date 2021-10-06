@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { MdEmail } from 'react-icons/md';
 import { SiLinkedin } from 'react-icons/si';
-// import ContactForm from './ContactForm';
+import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
 import SectionTitle from './SectionTitle';
 
@@ -13,10 +13,10 @@ const ContactSectionStyle = styled.div`
     display: flex;
     gap: 5rem;
     margin-top: 7rem;
-    justify-content: center;
+   justify-content: space-between;
     position: relative;
   }
-  /* .contactSection__wrapper::after {
+  .contactSection__wrapper::after {
     position: absolute;
     content: '';
     width: 2px;
@@ -25,7 +25,7 @@ const ContactSectionStyle = styled.div`
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
-  } */
+  }
   .left {
     width: 100%;
     max-width: 500px;
@@ -77,9 +77,9 @@ export default function ContactSection() {
             </a>
            
           </div>
-          {/* <div className="right">
+          <div className="right">
             <ContactForm />
-          </div> */}
+          </div>
         </div>
       </div>
     </ContactSectionStyle>
