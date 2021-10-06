@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import styled from 'styled-components';
 
 const FormStyle = styled.form`
@@ -39,7 +41,14 @@ const FormStyle = styled.form`
     transition: 1s;
     :hover {
       background-color: var(--black);
-      color: var(--gray1);
+      color: var(--gray-1);
+    }
+  }
+  textarea,
+  input {
+    :focus {
+      transition: 1s;
+      border: 1px solid var(--gray-1);
     }
   }
 `;
@@ -48,12 +57,17 @@ export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
   return (
     <>
       <FormStyle
         enctype="text/plain"
         action="https://formsubmit.co/pdromorenodev@gmail.com"
         method="POST"
+        data-aos="fade"
       >
         <div className="form-group">
           <label htmlFor="name">
