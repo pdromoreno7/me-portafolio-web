@@ -83,8 +83,8 @@ export function AboutSection() {
           <SectionTitle subheading="@pdromoreno7" heading="Acerca de mí" />
           <PText>
             Soy un desarrollador web frontend de Cartagena, Colombia. Creo
-            interfaces graficas web profesionales. Amo todo lo que tiene que ver
-            con tegnología, ciencias, y arte.
+            interfaces graficas web profesionales. Me gusta mucho todo lo que
+            tiene que ver con tegnología, ciencias, y arte.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Proyectos" btnLink="/projects" />

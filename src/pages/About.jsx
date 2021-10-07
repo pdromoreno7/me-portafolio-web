@@ -95,10 +95,11 @@ export function About() {
               <h2 className="about__heading">Un FrontEnd developer</h2>
               <div className="about__info">
                 <PText>
-                  Soy de Cartagena, Colombia. Amo la tegnología, el arte y la
-                  ciencias. Siempre intento crear cosas visualmente actractivas
-                  y usables. Me gusta mucho la idea de poder crear algo que
-                  pueda ayudar a los demas, que aporte algo a este mundo.
+                  Soy de Cartagena, Colombia. Me gusta mucho todo lo que lo
+                  relacionado a la tegnología, el arte y la ciencias. Siempre
+                  intento crear cosas visualmente actractivas y usables. Me
+                  agrada la idea de poder crear algo que pueda ayudar a los
+                  demas, que aporte algo a este mundo.
                   <br /> <br />
                   Empecé a programar hace 6 años cuando entre a la universidad,
                   eventualmente deje de hacerlo un poco. Regresé dandome cuenta
