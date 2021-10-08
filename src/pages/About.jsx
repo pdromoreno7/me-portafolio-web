@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/button-has-type */
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import styled from 'styled-components';
+import cv from '../assets/doc/Cv-frontendReact.pdf';
 
 // import AboutImg from '../assets/images/AboutSection.jpg';
 import AboutImg from '../assets/images/yo-WEB-2-black-vertical.jpg';
@@ -132,10 +134,7 @@ export function About() {
                   recibir feedback y poder crecer.
                 </PText>
               </div>
-              <a
-                download="Cv-Pedro-Moreno.pdf"
-                href="../assets/doc/Cv-frontendReact1.pdf"
-              >
+              <a href={cv} target="_blank">
                 <button type="submit">Descargar CV</button>
               </a>
             </div>
