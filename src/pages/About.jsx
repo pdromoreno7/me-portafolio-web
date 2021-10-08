@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -7,7 +8,7 @@ import styled from 'styled-components';
 import AboutImg from '../assets/images/yo-WEB-2-black-vertical.jpg';
 // import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
-import { Button } from '../components/Button';
+
 import { PText } from '../components/PText';
 import { SkillsSection } from '../components/SkillsSection';
 
@@ -60,6 +61,22 @@ const AboutPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
+  }
+  button[type='submit'] {
+    background-color: var(--HappyColor);
+    color: var(--black);
+    font-size: 2rem;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+    :hover {
+      background-color: var(--black);
+      color: var(--gray-1);
+    }
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
@@ -115,7 +132,12 @@ export function About() {
                   recibir feedback y poder crecer.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a
+                download="Cv-Pedro-Moreno.pdf"
+                href="../assets/doc/Cv-frontendReact1.pdf"
+              >
+                <button type="submit">Descargar CV</button>
+              </a>
             </div>
             <div className="right ">
               <img src={AboutImg} alt="me" />

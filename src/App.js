@@ -7,6 +7,7 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
+import { Pdf } from './pages/Pdf';
 
 export default function App() {
   return (
@@ -14,7 +15,11 @@ export default function App() {
       <Router>
         <NavMenu />
         <ScrollToTop />
+
         <Switch>
+          <Route path="/pdf">
+            <Pdf />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
