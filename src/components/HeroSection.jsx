@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import styled from 'styled-components';
 
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-import PortaImg from '../assets/images/HeroPhoto_2.jpg';
+import PortaImg from '../assets/images/portadaHero.jpg';
 // import { Button } from './Button';
 import { PText } from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';

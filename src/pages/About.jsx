@@ -71,7 +71,7 @@ const AboutPageStyles = styled.div`
     display: inline-block;
     outline: none;
     border: none;
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
     border-radius: 8px;
     cursor: pointer;
     transition: 1s;
