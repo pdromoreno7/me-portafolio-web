@@ -131,7 +131,7 @@ const HeroStyles = styled.div`
       margin-top: 3rem;
     }
     .hero__social {
-      left: 0px;
+      left: 5px;
       bottom: -15%;
       width: 20px;
       .hero__social__indicator {
@@ -147,7 +147,7 @@ const HeroStyles = styled.div`
         ul {
           li {
             a {
-              font-size: 1.2rem;
+              font-size: 1.5rem;
               margin-bottom: 1rem;
             }
           }
