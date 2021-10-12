@@ -3,7 +3,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { MdMenu, MdClose } from 'react-icons/md';
+import { MdClose } from 'react-icons/md';
+import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 
 const NavMenuStyles = styled.div`
   position: fixed;
@@ -43,12 +44,17 @@ const NavMenuStyles = styled.div`
   }
   .mobile-menu-icon {
     position: absolute;
+
     right: 1rem;
     top: 1rem;
     width: 4rem;
     cursor: pointer;
     display: none;
     outline: none;
+
+    svg {
+      stroke: var(--HappyColor);
+    }
     * {
       pointer-events: none;
     }
@@ -111,7 +117,7 @@ export function NavMenu() {
         onKeyDown={() => setShowNav(!showNav)}
         tabIndex={0}
       >
-        <MdMenu />
+        <HiOutlineMenuAlt3 className="mobileMenu" />
       </div>
       <ul className={!showNav ? 'navItems hide-item' : 'navItems'}>
         <div
