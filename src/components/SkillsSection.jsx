@@ -42,7 +42,7 @@ export function SkillsSection() {
               'Bootstrap',
               'GIT',
               'REACT.JS',
-              'Redux',
+              // 'Redux',
             ]}
           />
           {/* <AboutInfoItem
