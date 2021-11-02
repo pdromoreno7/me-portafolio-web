@@ -1,18 +1,18 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/button-has-type */
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import styled from 'styled-components';
-import cv from '../assets/doc/Cv-frontendReact.pdf';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import styled from "styled-components";
+import cv from "../assets/doc/Cv-Pedro-Moreno.pdf";
 
 // import AboutImg from '../assets/images/AboutSection.jpg';
-import AboutImg from '../assets/images/yo-WEB-2-black-vertical.jpg';
+import AboutImg from "../assets/images/yo-WEB-2-black-vertical.jpg";
 // import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
+import ContactBanner from "../components/ContactBanner";
 
-import { PText } from '../components/PText';
-import { SkillsSection } from '../components/SkillsSection';
+import { PText } from "../components/PText";
+import { SkillsSection } from "../components/SkillsSection";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -64,7 +64,7 @@ const AboutPageStyles = styled.div`
     font-size: 3.6rem;
     text-transform: uppercase;
   }
-  button[type='submit'] {
+  button[type="submit"] {
     background-color: var(--HappyColor);
     color: var(--black);
     font-size: 2rem;
@@ -122,10 +122,11 @@ export function About() {
                   <br /> <br />
                   Empecé a programar hace 6 años cuando entre a la universidad,
                   eventualmente deje de hacerlo un poco. Regresé dandome cuenta
-                  que el desarrollo web es mundo increíblen lleno de restos y
-                  que constantemente cambia. La programación es una arte para
-                  mi, lo encuentro realmente interesante, disfruto el proceso de
-                  crear algo desde cero solo codeando.
+                  que el desarrollo web es mundo increíblen lleno de retos y que
+                  constantemente cambia.
+                  <br /> La programación es una arte para mi, encuentro
+                  realmente interesante el proceso de crear algo desde cero solo
+                  codeando con un computador.
                   <br /> <br />
                   Vivo constantemente aprendiendo algo nuevo, y me enfoco en ser
                   un activo valioso en cualquier equipo que trabaje. Me gusta

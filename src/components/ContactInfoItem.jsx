@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { MdPlace } from 'react-icons/md';
-import styled from 'styled-components';
-import { PText } from './PText';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { MdPlace } from "react-icons/md";
+import styled from "styled-components";
+import { PText } from "./PText";
 
 const ItemStyles = styled.div`
   padding: 2rem;
@@ -13,6 +13,12 @@ const ItemStyles = styled.div`
   /* gap: 2rem; */
   border-radius: 8px;
   margin-bottom: 2rem;
+  p {
+    :hover {
+      color: var(--HappyColor);
+      transition: 1s;
+    }
+  }
   .icon {
     color: var(--white);
     background-color: var(--gray-2);
@@ -30,7 +36,7 @@ const ItemStyles = styled.div`
 
 export default function ContactInfoItem({
   icon = <MdPlace />,
-  text = 'I need text ',
+  text = "I need text ",
 }) {
   useEffect(() => {
     AOS.init({ duration: 1500 });
