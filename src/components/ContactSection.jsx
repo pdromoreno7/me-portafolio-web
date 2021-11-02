@@ -71,7 +71,7 @@ export default function ContactSection() {
               />
             </a>
 
-            <ContactInfoItem icon={<MdEmail />} text="pdromorenodev@gmail.com" />
+            {/* <ContactInfoItem icon={<MdEmail />} text="pdromorenodev@gmail.com" /> */}
             <a href="https://goo.gl/maps/pp3sHGmX7sRapLUt9" target="_blank ">
                 <ContactInfoItem text="Turbaco, Colombia" />
             </a>
