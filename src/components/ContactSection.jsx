@@ -1,7 +1,7 @@
-
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import styled from 'styled-components';
-// import { MdEmail } from 'react-icons/md';
+import { MdEmail } from 'react-icons/md';
 import { SiLinkedin } from 'react-icons/si';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
