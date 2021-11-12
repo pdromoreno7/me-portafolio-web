@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 // import { MdEmail } from "react-icons/md";
 import { SiLinkedin } from "react-icons/si";
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter, FaInstagram } from "react-icons/fa";
 import ContactForm from "./ContactForm";
 import ContactInfoItem from "./ContactInfoItem";
 import SectionTitle from "./SectionTitle";
@@ -71,6 +71,12 @@ export default function ContactSection() {
             </a>
             <a href="https://twitter.com/pdromoreno7" target="_blank ">
               <ContactInfoItem icon={<FaTwitter />} text="@pdromoreno7" />
+            </a>
+            <a
+              href="https://www.instagram.com/pdromoreno7/?hl=es-la"
+              target="_blank "
+            >
+              <ContactInfoItem icon={<FaInstagram />} text="@pdromoreno7" />
             </a>
 
             {/* <ContactInfoItem icon={<MdEmail />} text="pdromorenodev@gmail.com" /> */}

@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import styled from 'styled-components';
-import AboutInfoItem from './AboutInfoItem';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import styled from "styled-components";
+import AboutInfoItem from "./AboutInfoItem";
 
 const SkillsSectionStyles = styled.section`
   .skill__info__items {
@@ -35,14 +35,14 @@ export function SkillsSection() {
           <AboutInfoItem
             title="FrontEnd"
             items={[
-              'HTML',
-              'CSS',
-              'SASS',
-              'JavaScript',
-              'Bootstrap',
-              'GIT',
-              'REACT.JS',
-              // 'Redux',
+              "HTML",
+              "CSS",
+              "SASS",
+              "JavaScript",
+              "Bootstrap",
+              "GIT",
+              "REACT.JS",
+              "Redux",
             ]}
           />
           {/* <AboutInfoItem
@@ -51,7 +51,7 @@ export function SkillsSection() {
               /> */}
           <AboutInfoItem
             title="Design"
-            items={['Figma', 'Photoshop', 'Ilustrator']}
+            items={["Figma", "Photoshop", "Ilustrator"]}
           />
         </div>
         <div className="skill__info__item">
@@ -59,9 +59,9 @@ export function SkillsSection() {
 
           <AboutInfoItem
             title="Escuelas"
-            items={['Sena', 'Fundación Universitaria Tecnológico Comfenalco']}
+            items={["Sena", "Fundación Universitaria Tecnológico Comfenalco"]}
           />
-          <AboutInfoItem title="Plataformas" items={['Platzi']} />
+          <AboutInfoItem title="Plataformas" items={["Platzi"]} />
           {/* <AboutInfoItem
                 title="Varsity"
                 items={['University Of Chitiagong']}
