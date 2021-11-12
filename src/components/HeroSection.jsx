@@ -1,14 +1,15 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import styled from 'styled-components';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import styled from "styled-components";
 
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-import PortaImg from '../assets/images/portadaHero.jpg';
+import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+// import PortaImg from "../assets/images/portadaHero.jpg";
+import videoporta from "../assets/video/Pedro-moreno.mp4";
 // import { Button } from './Button';
-import { PText } from './PText';
-import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import { PText } from "./PText";
+import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
 
 const HeroStyles = styled.div`
   .hero {
@@ -36,7 +37,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: "Montserrat SemiBold";
       font-size: 7rem;
       color: var(--white);
     }
@@ -44,10 +45,10 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 900px;
     width: 100%;
-    height: 600px;
+
     margin: 0 auto;
-    /* border: 2px solid var(--gray-1); */
-    /* border-radius: 20px; */
+    border: 2px solid var(--gray-1);
+    border-radius: 20px;
     overflow: hidden;
   }
   .hero__info {
@@ -124,9 +125,9 @@ const HeroStyles = styled.div`
         font-size: 4.5rem;
       }
     }
-    .hero__img {
+    /* .hero__img {
       height: 300px;
-    }
+    } */
     .hero__info {
       margin-top: 3rem;
     }
@@ -178,11 +179,19 @@ export function HeroSection() {
             <div data-aos="fade-up" className="hero__content">
               <h1 className="hero__heading">
                 {/* <span>Portafolio</span> */}
-                <span className="hero__name">Pedro Moreno</span>
+                {/* <span className="hero__name">Pedro Moreno</span> */}
               </h1>
-              <div className="hero__img">
+              {/* <div className="hero__img">
                 <img src={PortaImg} alt="" />
-              </div>
+              </div> */}
+              <video
+                className="hero__img"
+                muted="true"
+                autoplay="true"
+                loop="true"
+              >
+                <source src={videoporta} type="video/mp4" alt="" />
+              </video>
               <div className="hero__info">
                 <PText>
                   Hola! Mi nombre es Pedro Nel Moreno Alvarez. Soy FronEnd
