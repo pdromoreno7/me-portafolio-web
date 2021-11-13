@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { PText } from './PText';
+import React from "react";
+import styled from "styled-components";
+import { PText } from "../PText/PText";
 
 const AboutItemStyles = styled.div`
   display: flex;
@@ -50,8 +50,8 @@ const AboutItemStyles = styled.div`
 `;
 
 export default function AboutInfoItem({
-  title = 'Title',
-  items = ['HTML', 'CSS'],
+  title = "Title",
+  items = ["HTML", "CSS"],
 }) {
   return (
     <AboutItemStyles>

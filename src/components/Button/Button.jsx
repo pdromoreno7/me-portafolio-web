@@ -1,31 +1,31 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
   .button {
     font-size: 2.2rem;
     background-color: ${(props) =>
-      props.outline ? 'transparent' : 'var(--HappyColor)'};
+      props.outline ? "transparent" : "var(--HappyColor)"};
     padding: 0.7em 2em;
     border-radius: 8px;
     display: inline-block;
     border: ${(props) =>
       props.outline
-        ? '2px solid var(--gray-1)'
-        : '2px solid var(--HappyColor)'};
-    color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+        ? "2px solid var(--gray-1)"
+        : "2px solid var(--HappyColor)"};
+    color: ${(props) => (props.outline ? "var(--gary-1)" : "black")};
     transition: 1s;
     :hover {
       background-color: ${(props) =>
-        props.outline ? 'transparent' : 'var(--black)'};
+        props.outline ? "transparent" : "var(--black)"};
       color: ${(props) =>
-        props.outline ? 'var(--HappyColor)' : 'var(--gray-1)'};
+        props.outline ? "var(--HappyColor)" : "var(--gray-1)"};
       border: ${(props) =>
         props.outline
-          ? '2px solid var(--HappyColor)'
-          : ' 2px solid var(--black)'};
+          ? "2px solid var(--HappyColor)"
+          : " 2px solid var(--black)"};
     }
   }
   @media only screen and (max-width: 768px) {
@@ -36,8 +36,8 @@ const ButtonStyle = styled.div`
 `;
 
 export function Button({
-  btnLink = 'test',
-  btnText = 'Boton',
+  btnLink = "test",
+  btnText = "Boton",
   outline = false,
 }) {
   return (

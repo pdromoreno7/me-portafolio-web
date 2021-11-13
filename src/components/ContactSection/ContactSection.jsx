@@ -3,9 +3,9 @@ import styled from "styled-components";
 // import { MdEmail } from "react-icons/md";
 import { SiLinkedin } from "react-icons/si";
 import { FaTwitter, FaInstagram } from "react-icons/fa";
-import ContactForm from "./ContactForm";
-import ContactInfoItem from "./ContactInfoItem";
-import SectionTitle from "./SectionTitle";
+import ContactForm from "../ContactForm/ContactForm";
+import ContactInfoItem from "../ContactInfoItem/ContactInfoItem";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 const ContactSectionStyle = styled.div`
   padding: 10rem 0;

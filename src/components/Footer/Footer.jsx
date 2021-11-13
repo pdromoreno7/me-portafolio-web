@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FooterCol } from './FooterCol';
-import { PText } from './PText';
+import React from "react";
+import styled from "styled-components";
+import { FooterCol } from "./FooterCol";
+import { PText } from "../PText/PText";
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
@@ -65,24 +65,24 @@ export default function Footer() {
             heading="Secciones"
             links={[
               {
-                title: 'Home',
-                path: '/',
-                type: 'Link',
+                title: "Home",
+                path: "/",
+                type: "Link",
               },
               {
-                type: 'Link',
-                title: 'About',
-                path: '/about',
+                type: "Link",
+                title: "About",
+                path: "/about",
               },
               {
-                type: 'Link',
-                title: 'Projects',
-                path: '/projects',
+                type: "Link",
+                title: "Projects",
+                path: "/projects",
               },
               {
-                type: 'Link',
-                title: 'Contact',
-                path: '/contact',
+                type: "Link",
+                title: "Contact",
+                path: "/contact",
               },
             ]}
           />
@@ -92,16 +92,16 @@ export default function Footer() {
             heading="contacto"
             links={[
               {
-                title: 'Linkedin',
-                path: 'https://www.linkedin.com/in/pedro-moreno-alvarez/',
+                title: "Linkedin",
+                path: "https://www.linkedin.com/in/pedro-moreno-alvarez/",
               },
               // {
               //   title: 'webcifar@gmail.com',
               //   path: 'mailto:webcifar@gmail.com',
               // },
               {
-                title: 'Turbaco, Colombia',
-                path: 'https://goo.gl/maps/pp3sHGmX7sRapLUt9',
+                title: "Turbaco, Colombia",
+                path: "https://goo.gl/maps/pp3sHGmX7sRapLUt9",
               },
             ]}
           />
@@ -115,12 +115,12 @@ export default function Footer() {
               //   path: 'http://facebook.com',
               // },
               {
-                title: 'Twitter',
-                path: 'https://twitter.com/pdromoreno7',
+                title: "Twitter",
+                path: "https://twitter.com/pdromoreno7",
               },
               {
-                title: 'Instagram',
-                path: 'https://www.instagram.com/pdromoreno7/?hl=es-la',
+                title: "Instagram",
+                path: "https://www.instagram.com/pdromoreno7/?hl=es-la",
               },
             ]}
           />

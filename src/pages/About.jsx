@@ -9,10 +9,10 @@ import cv from "../assets/doc/Cv-Pedro-Moreno.pdf";
 // import AboutImg from '../assets/images/AboutSection.jpg';
 import AboutImg from "../assets/images/yo-WEB-2-black-vertical.jpg";
 // import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from "../components/ContactBanner";
+import ContactBanner from "../components/ContactBanner/ContactBanner";
 
-import { PText } from "../components/PText";
-import { SkillsSection } from "../components/SkillsSection";
+import { PText } from "../components/PText/PText";
+import { SkillsSection } from "../components/SkillsSection/SkillsSection";
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;

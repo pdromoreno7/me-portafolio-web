@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import styled from "styled-components";
-import AboutInfoItem from "./AboutInfoItem";
+import AboutInfoItem from "../AboutInfoItem/AboutInfoItem";
 
 const SkillsSectionStyles = styled.section`
   .skill__info__items {

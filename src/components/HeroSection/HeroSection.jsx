@@ -5,11 +5,11 @@ import styled from "styled-components";
 
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 // import PortaImg from "../assets/images/portadaHero.jpg";
-import videoporta from "../assets/video/Pedro-moreno.mp4";
+import videoporta from "../../assets/video/Pedro-moreno.mp4";
 // import { Button } from './Button';
-import { PText } from "./PText";
-import SocialMediaArrow from "../assets/images/social-media-arrow.svg";
-import ScrollDownArrow from "../assets/images/scroll-down-arrow.svg";
+import { PText } from "../PText/PText";
+import SocialMediaArrow from "../../assets/images/social-media-arrow.svg";
+import ScrollDownArrow from "../../assets/images/scroll-down-arrow.svg";
 
 const HeroStyles = styled.div`
   .hero {

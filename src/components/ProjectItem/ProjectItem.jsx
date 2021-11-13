@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-import { FaGithub, FaLink } from 'react-icons/fa';
-import ProjectImg from '../assets/images/projectImg.png';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import { FaGithub, FaLink } from "react-icons/fa";
+import ProjectImg from "../../assets/images/projectImg.png";
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -30,7 +30,7 @@ const ProjectItemStyles = styled.div`
   }
   .projectItem__desc {
     font-size: 1.6rem;
-    font-family: 'RobotoMono Regular';
+    font-family: "RobotoMono Regular";
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
@@ -70,10 +70,10 @@ const ProjectItemStyles = styled.div`
 
 export default function ProjectItem({
   img = ProjectImg,
-  title = 'Project Name',
-  desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  github = 'https://github.com/pdromoreno7',
-  sitio = '',
+  title = "Project Name",
+  desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  github = "https://github.com/pdromoreno7",
+  sitio = "",
 }) {
   useEffect(() => {
     AOS.init({ duration: 1500 });
