@@ -49,7 +49,7 @@ export function HeroSection() {
               </div>
             </div>
 
-            <div data-aos="fade-right" className="hero__social">
+            <div data-aos="fade-up" className="hero__social">
               <div className="hero__social__indicator">
                 <p>Follow</p>
                 <img src={SocialMediaArrow} alt="icon" />
@@ -95,7 +95,7 @@ export function HeroSection() {
                 </ul>
               </div>
             </div>
-            <div data-aos="fade-left" className="hero__scrollDown">
+            <div data-aos="fade-up" className="hero__scrollDown">
               <p>Scroll</p>
               <img src={ScrollDownArrow} alt="ScrollDown Arrow" />
             </div>

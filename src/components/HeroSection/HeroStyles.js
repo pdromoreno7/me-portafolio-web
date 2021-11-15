@@ -52,7 +52,7 @@ export const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
-    bottom: 40px;
+    bottom: 60px;
     width: 50px;
   }
   .hero__social {
