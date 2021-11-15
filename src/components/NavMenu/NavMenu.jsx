@@ -64,6 +64,7 @@ export function NavMenu() {
                 role="button"
                 onKeyDown={() => setShowNav(!showNav)}
                 tabIndex={0}
+                activeClassName="active"
               >
                 Inicio
               </NavLink>
