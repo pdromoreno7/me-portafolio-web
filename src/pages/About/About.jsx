@@ -52,7 +52,7 @@ export function About() {
                   <br /> <br />
                   <ul>
                     <li>Fan de las ciencias del espacio.🚀</li>
-                    <li>La música, me gusta tocar el bajo y la guitarra🎸</li>
+                    <li>La música, me gusta tocar el bajo y la guitarra. 🎸</li>
                     <li>Filming, astrofotografía. 🎥</li>
                   </ul>
                   {/* <strong>¿Porque Javascript?</strong>
