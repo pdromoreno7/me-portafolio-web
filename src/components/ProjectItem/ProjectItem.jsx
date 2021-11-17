@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaGithub, FaLink } from "react-icons/fa";
 import ProjectImg from "../../assets/images/projectImg.png";
@@ -80,13 +80,12 @@ export default function ProjectItem({
   }, []);
   return (
     <ProjectItemStyles data-aos="fade">
-      <Link to="/projects" className="projectItem__img">
+      <a href={sitio} target="_blank" className="projectItem__img">
         <img src={img} alt="project img" />
-      </Link>
+      </a>
       <div className="projectItem__info">
-        <Link to="#">
-          <h3 className="projectItem__title">{title}</h3>
-        </Link>
+        <h3 className="projectItem__title">{title}</h3>
+
         <p className="projectItem__desc">{desc}</p>
         <div className="projectItem__info-liks">
           {github && (
