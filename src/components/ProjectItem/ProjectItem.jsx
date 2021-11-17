@@ -72,7 +72,7 @@ export default function ProjectItem({
   img = ProjectImg,
   title = "Project Name",
   desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-  github = "https://github.com/pdromoreno7",
+  github,
   sitio = "",
 }) {
   useEffect(() => {
@@ -89,9 +89,12 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
         <div className="projectItem__info-liks">
-          <a href={github} target="_blank" alt="Github">
-            <FaGithub />
-          </a>
+          {github && (
+            <a href={github} target="_blank" alt="Github">
+              <FaGithub />
+            </a>
+          )}
+
           <a href={sitio} target="_blank">
             <FaLink />
           </a>
