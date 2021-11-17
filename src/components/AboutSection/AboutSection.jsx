@@ -20,7 +20,7 @@ export function AboutSection() {
           <PText>
             Desarrollador web frontend de Cartagena, Colombia. Tengo experiencia
             creando interfaces graficas web UI. Me gusta mucho todo lo que tiene
-            que ver con tegnología, ciencias, y arte.
+            que ver con tecnología, ciencias, y arte.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Proyectos" btnLink="/projects" />

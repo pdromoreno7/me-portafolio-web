@@ -29,7 +29,7 @@ export function About() {
                   Soy de Cartagena, Colombia. Tengo experiencia creando
                   interfaces para sitios y apps webs con HTML/CSS, React.js y
                   vanilla JavaScript. Me gusta mucho todo lo que lo relacionado
-                  a la tegnología, el arte y la ciencias. Siempre intento crear
+                  a la tecnología, el arte y la ciencias. Siempre intento crear
                   cosas visualmente actractivas y usables. Me agrada la idea de
                   poder hacer algo que pueda ayudar a los demas, que aporte algo
                   a este mundo.
