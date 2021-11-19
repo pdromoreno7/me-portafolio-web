@@ -6,14 +6,16 @@ import EcommerceTenis from "../images/ecommerceTenis.png";
 import BatatabitImg from "../images/Batatabit.png";
 import TodoMountain from "../images/TodoMountain.png";
 import Skycomeet from "../images/portada-proyectos/portada.png";
+import PortadaSkycomeet from "../images/portada-proyectos/skycomeet-portada.png";
 
 const projects = [
   {
     id: uuidv4(),
     name: "Skycomeet",
-    desc: "SkyComeet.com, es una app web que te permite ver que foto se tomó en el espacio el día de tu cumpleaños. Haciendo uso de la API NASA ofical APOD que brinda estas imagenes de forma gratuita para desarroladores",
+    desc: "SkyComeet.com, es una app web que te permite ver que fotografia astronomica exhibió la NASA APOD  el día de tu cumpleaños. Haciendo uso de la API NASA ofical, que brinda estas imagenes de forma gratuita para desarroladores",
     img: Skycomeet,
-
+    portada: PortadaSkycomeet,
+    page: "/projects/skycomeet",
     sitio: "https://skycomeet.com/",
   },
   {

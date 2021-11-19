@@ -92,6 +92,7 @@ export function Projects() {
               img={item.img}
               github={item.github}
               sitio={item.sitio}
+              page={item.page}
             />
           ))}
         </div>

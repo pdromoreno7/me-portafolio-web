@@ -8,6 +8,7 @@ import { Contact } from "./pages/Contact";
 import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects";
 import { Pdf } from "./pages/Pdf";
+import { Skycomeetpage } from "./pages/Projectspages/Skycomeetpage/Skycomeetpage";
 
 export default function App() {
   return (
@@ -17,8 +18,8 @@ export default function App() {
         <ScrollToTop />
 
         <Switch>
-          <Route path="/pdf">
-            <Pdf />
+          <Route exact path="/projects/skycomeet">
+            <Skycomeetpage />
           </Route>
           <Route path="/about">
             <About />
