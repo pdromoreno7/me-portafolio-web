@@ -61,7 +61,7 @@ export function SkillsSection() {
             title="Escuelas"
             items={["Sena", "Fundación Universitaria Tecnológico Comfenalco"]}
           />
-          <AboutInfoItem title="Plataformas" items={["Platzi"]} />
+          <AboutInfoItem title="Plataformas" items={["Platzi", "Udemy"]} />
           {/* <AboutInfoItem
                 title="Varsity"
                 items={['University Of Chitiagong']}

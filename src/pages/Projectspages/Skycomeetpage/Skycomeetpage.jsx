@@ -12,6 +12,7 @@ export function Skycomeetpage() {
         title={dataSkycomeet.name}
         portadamain={dataSkycomeet.portada}
         description={dataSkycomeet.desc}
+        sitio={dataSkycomeet.sitio}
       >
         <p className="skyconeet__description">
           En noviembre del 2020 me encontraba viendo un proyecto web que había

@@ -28,4 +28,23 @@ export const ProyectComponentStyles = styled.div`
       font-size: 16px;
     }
   }
+  button[type="submit"] {
+    /* background-color: var(--HappyColor); */
+    background-color: var(--deep-dark);
+    color: var(--gray-1);
+    font-size: 16px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 2rem;
+    :hover {
+      /* background-color: var(--HappyColor); */
+
+      color: var(--HappyColor2);
+    }
+  }
 `;
