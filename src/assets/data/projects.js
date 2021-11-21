@@ -12,7 +12,7 @@ const projects = [
   {
     id: uuidv4(),
     name: "Skycomeet",
-    desc: "SkyComeet.com es una app web que te permite ver que fotografia astronomica exhibió la NASA APOD  el día de tu cumpleaños. Haciendo uso de la API NASA ofical, que brinda estas imagenes de forma gratuita para desarroladores",
+    desc: "SkyComeet.com es una app web que te permite ver que fotografía astronómica exhibió la NASA APOD el día de tu cumpleaños. Haciendo uso de la API NASA oficial, que brinda estas imágenes de forma gratuita para desarrolladores.",
     img: Skycomeet,
     portada: PortadaSkycomeet,
     page: "/projects/skycomeet",

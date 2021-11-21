@@ -17,32 +17,32 @@ export function Skycomeetpage() {
         <p className="skyconeet__description">
           En noviembre del 2020 me encontraba viendo un proyecto web que había
           realizado un amigo, en ese proyecto mi amigo utilizo la API oficial de
-          la NASA para la información que iba a mostrar, para aquellos días no
+          la NASA para la información que iba a mostrar. Para aquellos días no
           sabía que la NASA brindaba esta herramienta de forma gratuita, así que
-          me llamo bastante la atención, soy fan de la organización y su
-          historia, había coincidido en un momento en el que tenía una
-          fascinación por la astronomía y la astronáutica.
+          me llamo bastante la atención. Soy fan de la Nasa y su historia, había
+          coincidido en un momento en el que tenía una fascinación por la
+          astronomía y la astronáutica bien hype.
           <br /> <br />
-          Asi que visaste la página oficial{" "}
+          Asi que visite la página oficial{" "}
           <a href="https://api.nasa.gov/" target="_blank">
             APIs NASA
           </a>{" "}
-          y me encontré que la Nasa brindaba su banco de imágenes y videos, en
-          ese momento me alegre bastante porque me encanta la astrofotografía y
-          sabía que no era el único, tengo varios amigos muy fan también, así
-          que lo primero que se me vino a la mente fue una biblioteca de estas
-          imágenes sabía que la información venia con la fecha de esas imágenes.
-          Pero sabía que era un tema para un nicho en particular amante de las
-          ciencias de espacio y la idea sería poder llegar a mentes nuevas que
-          desconchen este mundillo, y algunas exenticas de estas imágenes.
+          y me encontré que brindaba su banco de imágenes y videos. En ese
+          momento me alegre bastante porque me encanta la astrofotografía y
+          sabía que no era el único, tengo varios amigos muy fan también. Lo
+          primero que se me vino a la mente fue una biblioteca de estas
+          imágenes, sabía que la información venia con alguna fecha de esas
+          fotografias. Es un tema para un nicho en particular amante de las
+          ciencias del espacio, la idea sería poder llegar a nuevas mentes que
+          desconocen este mundillo, algunos hasta son escépticos de estas
+          imágenes.
           <br /> <br />
-          Asi que había que hacer algo para que suene atractivo, y que las
-          personas quieran entrar al sitio. Entonces vi en un tuto que en la
-          información que me daba la API, también venia las fechas de las
-          imágenes, así que me imaginé con eso que podíamos asociar eso a una
-          fecha especial ¿Y que más especial que el día que cumple una persona?
-          Entonces le comenté a mi amigo la idea y me dijo que anotara la idea
-          en una parte, eso hice.
+          Asi que había que hacer algo para que suene un poco mas llamativo, y
+          que las personas quieran entrar al sitio. Entonces vi en un tutorial
+          que la información que me daba la API también venia las fechas de las
+          imágenes. Pense que podíamos asociar eso a una fecha especial ¿Y que
+          más especial que el día que cumple una persona? Le comenté a mi amigo
+          la idea y me dijo que la anotara en una parte, eso hice.
           <br /> <br />
           Un año después junto con mi amigo{" "}
           <a href="https://www.linkedin.com/in/rafedev/" target="_blank">
