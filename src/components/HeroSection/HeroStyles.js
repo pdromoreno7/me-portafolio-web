@@ -32,7 +32,7 @@ export const HeroStyles = styled.div`
     }
   }
   .hero__img {
-    max-width: 900px;
+    max-width: 990px;
     width: 100%;
 
     margin: 0 auto;

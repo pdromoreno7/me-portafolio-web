@@ -5,7 +5,7 @@ import { HeroStyles } from "./HeroStyles";
 
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 // import PortaImg from "../assets/images/portadaHero.jpg";
-import videoporta from "../../assets/video/Pedro-moreno.mp4";
+import videoporta from "../../assets/video/Pedro-Moreno_2.mp4";
 // import { Button } from './Button';
 import { PText } from "../PText/PText";
 import SocialMediaArrow from "../../assets/images/social-media-arrow.svg";
