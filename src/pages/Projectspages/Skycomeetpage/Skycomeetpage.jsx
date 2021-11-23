@@ -15,6 +15,16 @@ export function Skycomeetpage() {
         sitio={dataSkycomeet.sitio}
       >
         <p className="skyconeet__description">
+          <h4>En este proyecto realice:</h4>
+          <br />
+          Análisis del problema, creación del flujo lógico de la app, aporte al
+          diseño y secciones, maquetación de las diferentes secciones de la
+          interfaz, lógica para manejar la información mostrada final en la
+          tarjeta, creación de formularios, creación de animaciones.
+        </p>
+        <p className="skyconeet__description">
+          <h4>Historia:</h4>
+          <br />
           En noviembre del 2020 me encontraba viendo un proyecto web que había
           realizado un amigo, en ese proyecto mi amigo utilizo la API oficial de
           la NASA para la información que iba a mostrar. Para aquellos días no
@@ -64,9 +74,10 @@ export function Skycomeetpage() {
             amigos y vaya que lo hemos hecho!
           </strong>
         </p>
+        <br />
         <p className="skyconeet__description">
-          Este proyecto se realizó con las siguientes tecnologías:
-          <br /> <br />
+          <h4>Este proyecto se realizó con las siguientes tecnologías:</h4>
+          <br />
           <ul>
             <li>- HTML/CSS</li>
             <li>- Javascript</li>
@@ -77,8 +88,8 @@ export function Skycomeetpage() {
           </ul>
         </p>
         <p className="skyconeet__description">
-          Usamos las siguientes herramienta:
-          <br /> <br />
+          <h4>Usamos las siguientes herramienta:</h4>
+          <br />
           <ul>
             <li>- Figma</li>
             <li>- Notion</li>
@@ -88,8 +99,9 @@ export function Skycomeetpage() {
           </ul>
         </p>
         <p className="skyconeet__description">
-          Aun estamos implementando mejoras y nuevas funciones.
-          <br /> A continuación presentación de mockups, realizado por mi amigo{" "}
+          <em>Aun estamos implementando mejoras y nuevas funciones.</em>
+          <br /> <br /> A continuación presentación de mockups, realizado por mi
+          amigo{" "}
           <a
             href="https://www.linkedin.com/in/miguel-angel-ruz-torres-1367a1219/"
             target="_blank"

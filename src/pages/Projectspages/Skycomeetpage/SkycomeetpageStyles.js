@@ -11,8 +11,8 @@ export const SkycomeetpageStyles = styled.div`
     a {
       color: var(--HappyColor2);
     }
-    em {
+    /* em {
       color: var(--HappyColor2);
-    }
+    } */
   }
 `;
