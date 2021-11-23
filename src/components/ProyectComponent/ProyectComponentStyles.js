@@ -14,9 +14,10 @@ export const ProyectComponentStyles = styled.div`
     padding: 2rem;
     max-width: 900px;
   }
-  /* .proyectComponent__main {
+  .proyectComponent__main {
+    padding-top: 10rem;
     height: 100vh;
-  } */
+  }
   .proyectComponent__img {
     max-width: 900px;
     margin: 0 auto;

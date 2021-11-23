@@ -17,14 +17,14 @@ export const ProyectDestacadoStyles = styled.section`
     width: 50%;
     background-color: var(--deep-dark);
     border-radius: 15px;
-    padding: 2rem;
+    padding: 4rem;
   }
   .proDestacado__info-title {
     margin-bottom: 1rem;
   }
-  /* .proDestacado__info-btns {
+  .proDestacado__info-btns {
     margin-top: 1rem;
-  } */
+  }
   .proDestacado__link {
     background-color: var(--gray-1);
     /* background-color: var(--deep-dark); */
