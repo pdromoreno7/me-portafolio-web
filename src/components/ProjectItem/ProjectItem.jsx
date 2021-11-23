@@ -20,13 +20,18 @@ export default function ProjectItem({
   }, []);
   return (
     <ProjectItemStyles data-aos="fade">
-      <a href={sitio} target="_blank" className="projectItem__img">
-        <img src={img} alt="project img" />
-      </a>
+      <div href={sitio} target="_blank" className="projectItem__img">
+        <img src={img} alt={title} />
+      </div>
       <div className="projectItem__info">
-        <h3 className="projectItem__title">{title}</h3>
+        <div className="projectItem__info-text">
+          <a href={sitio} target="_blank">
+            <h3 className="projectItem__title">{title}</h3>
+          </a>
 
-        <p className="projectItem__desc">{desc}</p>
+          <p className="projectItem__desc">{desc}</p>
+        </div>
+
         <div className="projectItem__info-liks">
           {github && (
             <a href={github} target="_blank" alt="Github">

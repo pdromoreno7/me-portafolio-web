@@ -24,6 +24,7 @@ export function Skycomeetpage() {
         </p>
         <p className="skyconeet__description">
           <h4>Historia:</h4>
+          <br />
           En noviembre del 2020 me encontraba viendo un proyecto web que había
           realizado un amigo, en ese proyecto mi amigo utilizo la API oficial de
           la NASA para la información que iba a mostrar. Para aquellos días no

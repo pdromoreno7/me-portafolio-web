@@ -14,6 +14,9 @@ export const ProyectComponentStyles = styled.div`
     padding: 2rem;
     max-width: 900px;
   }
+  /* .proyectComponent__main {
+    height: 100vh;
+  } */
   .proyectComponent__img {
     max-width: 900px;
     margin: 0 auto;
@@ -52,21 +55,14 @@ export const ProyectComponentStyles = styled.div`
       border: 2px solid var(--HappyColor); */
     }
 
-    /* background-color: var(--deep-dark);
-    color: var(--gray-1);
-    font-size: 16px;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 1s;
-    margin-top: 2rem;
-    :hover {
-   
-
-      color: var(--HappyColor2);
-    } */
+    /* background-color: var(--deep-dark) ; color: var(--gray-1) ; font-size: 16px; display: inline-block; outline: none; border: none; padding: 1rem 2rem; border-radius: 8px; cursor: pointer; transition: 1s; margin-top: 2rem; :hover { color: var(--HappyColor2) ; } */
   }
+  /* @media only screen and (max-width: 768px) {
+ 
+    .proyectComponent__main {
+      padding: 10rem 0;
+
+   
+    }
+  } */
 `;
