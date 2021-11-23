@@ -9,6 +9,9 @@ import AboutImg from "../../assets/images/yo-WEB-2-black-vertical.jpg";
 import ContactBanner from "../../components/ContactBanner/ContactBanner";
 import { PText } from "../../components/PText/PText";
 import { SkillsSection } from "../../components/SkillsSection/SkillsSection";
+import { ProyectDestacado } from "../../components/proyectDestacado/ProyectDestacado";
+import projects from "../../assets/data/projects";
+const dataSkycomeet = projects[0];
 
 export function About() {
   useEffect(() => {
@@ -81,6 +84,14 @@ export function About() {
               <img src={AboutImg} alt="me" />
             </div>
           </div>
+
+          <ProyectDestacado
+            name={dataSkycomeet.name}
+            portada={dataSkycomeet.img}
+            desc={dataSkycomeet.desc}
+            link={dataSkycomeet.sitio}
+            more="/projects/skycomeet"
+          />
 
           <SkillsSection />
         </div>
