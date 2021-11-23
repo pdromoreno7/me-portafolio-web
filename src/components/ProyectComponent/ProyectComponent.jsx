@@ -17,12 +17,13 @@ export function ProyectComponent({
         <div className="proyectComponent__img">
           <img src={portadamain} alt={title} />
         </div>
-        {/* <a href={sitio} target="_blank">
-          <button type="submit">Visitar {title}</button>
-        </a> */}
+
         <div className="proyectComponent__desc-corta">
           <p>{description}</p>
         </div>
+        <a href={sitio} target="_blank">
+          <button type="submit">Visitar {title}</button>
+        </a>
 
         {children}
       </div>

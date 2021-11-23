@@ -54,10 +54,27 @@ export const ProjectItemStyles = styled.div`
     }
   }
   .projectItem__more {
+    background-color: transparent;
+    border: 2px solid var(--gray-1);
+    font-size: 14px;
+    display: inline-block;
+    outline: none;
+
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+
     :hover {
+      /* background-color: var(--HappyColor); */
+      background-color: var(--gray-2);
+      /* color: var(--HappyColor);
+      border: 2px solid var(--HappyColor); */
+    }
+    /* :hover {
       color: var(--HappyColor);
       transition: 1s;
-    }
+    } */
   }
 
   @media only screen and (max-width: 768px) {

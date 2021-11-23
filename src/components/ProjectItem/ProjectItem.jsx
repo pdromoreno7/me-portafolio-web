@@ -39,7 +39,7 @@ export default function ProjectItem({
           </a>
           {page && (
             <Link to={page}>
-              <p className="projectItem__more">Ver mas</p>
+              <div className="projectItem__more">Ver mas</div>
             </Link>
           )}
         </div>
