@@ -52,6 +52,13 @@ const GlobalStyles = createGlobalStyle`
     /* padding: 6px; */
     /* border-radius:2px; */
   }
+ .proyectPgae__description{
+   margin-bottom: 2rem;
+   font-size: 16px;
+    a {
+      color: var(--HappyColor2);
+    }
+ } 
 /* Smooth Scroll  */
   [data-scrollbar] {
     height: 100vh;

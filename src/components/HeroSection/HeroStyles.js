@@ -159,4 +159,13 @@ export const HeroStyles = styled.div`
       }
     }
   }
+  /* @media only screen and (max-width: 768px) {
+    .hero__img {
+      height: 400px;
+      source {
+        object-fit: cover;
+        height: 400px;
+      }
+    }
+  } */
 `;

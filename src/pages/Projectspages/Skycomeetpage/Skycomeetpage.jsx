@@ -85,6 +85,7 @@ export function Skycomeetpage() {
             <li>- Redux</li>
             <li>- Axios</li>
             <li>- Styled Components</li>
+            <li>- Aos.Js</li>
           </ul>
         </p>
         <p className="skyconeet__description">

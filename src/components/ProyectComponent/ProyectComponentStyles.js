@@ -33,26 +33,21 @@ export const ProyectComponentStyles = styled.div`
     }
   }
   button[type="submit"] {
-    background-color: var(--gray-1);
-    /* background-color: var(--deep-dark); */
-    color: black;
-    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid var(--gray-1);
+    font-size: 13px;
     display: inline-block;
     outline: none;
-    border: 2px solid var(--gray-1);
+
     padding: 1rem 1rem;
     border-radius: 8px;
     cursor: pointer;
     transition: 1s;
-    /* margin-top: 2rem; */
-    margin-bottom: 3rem;
-
+    margin-top: 2rem;
     :hover {
       /* background-color: var(--HappyColor); */
       background-color: var(--gray-2);
-      color: var(--gray-1);
-      /* background-color: var(--HappyColor);
-      color: var(--deep-dark);
+      /* color: var(--HappyColor);
       border: 2px solid var(--HappyColor); */
     }
 

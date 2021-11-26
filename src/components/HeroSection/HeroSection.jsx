@@ -35,7 +35,13 @@ export function HeroSection() {
                 autoplay="true"
                 loop="true"
               >
-                <source src={videoporta} type="video/mp4" alt="" />
+                <source
+                  src={videoporta}
+                  type="video/mp4"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
               </video>
               <div className="hero__info">
                 <PText>

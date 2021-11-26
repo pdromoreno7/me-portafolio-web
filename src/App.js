@@ -9,6 +9,7 @@ import { Home } from "./pages/Home";
 import { Projects } from "./pages/Projects";
 import { Pdf } from "./pages/Pdf";
 import { Skycomeetpage } from "./pages/Projectspages/Skycomeetpage/Skycomeetpage";
+import { PlazaDonacionespage } from "./pages/Projectspages/PlazaDonacionespage/PlazaDonacionespage";
 
 export default function App() {
   return (
@@ -18,6 +19,9 @@ export default function App() {
         <ScrollToTop />
 
         <Switch>
+          <Route exact path="/projects/plazaDonaciones">
+            <PlazaDonacionespage />
+          </Route>
           <Route exact path="/projects/skycomeet">
             <Skycomeetpage />
           </Route>

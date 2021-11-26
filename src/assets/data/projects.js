@@ -7,6 +7,7 @@ import BatatabitImg from "../images/Batatabit.png";
 import TodoMountain from "../images/TodoMountain.png";
 import Skycomeet from "../images/portada-proyectos/portada.png";
 import PortadaSkycomeet from "../images/portada-proyectos/skycomeet-portada.png";
+import PortadaPlazaDonaciones from "../images/portada-proyectos/Portada-plaza-donaciones.png";
 
 const projects = [
   {
@@ -23,7 +24,10 @@ const projects = [
     name: "Plaza de Donaciones",
     desc: "Landing page para visualizar avances de obras, y hacer donaciones para la comunidad Fuente de Poder. Hecho con React.js.",
     img: PlazaDonaciones,
+    portada: PortadaPlazaDonaciones,
     github: "https://github.com/pdromoreno7/church-plaza-donaciones",
+    page: "/projects/plazaDonaciones",
+
     sitio: "https://pdromoreno7.github.io/church-plaza-donaciones/",
   },
   {
