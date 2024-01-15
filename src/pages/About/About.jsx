@@ -31,16 +31,16 @@ export function About() {
                 <PText>
                   Soy de Cartagena, Colombia. Tengo experiencia creando
                   interfaces para sitios y apps webs con HTML/CSS, React.js y
-                  vanilla JavaScript. Me gusta mucho todo lo que lo relacionado
-                  a la tecnología, el arte y la ciencias. Siempre intento crear
-                  cosas visualmente actractivas y usables. Me agrada la idea de
-                  poder hacer algo que pueda ayudar a los demas, que aporte algo
-                  a este mundo.
+                  vanilla JavaScript. Me gusta mucho todo lo que está
+                  relacionado a la tecnología, el arte y la ciencias. Siempre
+                  intento crear cosas visualmente atractivas y usables. Me
+                  agrada la idea de poder hacer algo que pueda ayudar a los
+                  demás, que aporte algo a este mundo.
                   <br /> <br />
-                  Empecé a programar hace 6 años cuando entre a la universidad,
-                  eventualmente deje de hacerlo un poco. Regresé dandome cuenta
-                  que el desarrollo web es mundo increíblen lleno de retos y que
-                  constantemente cambia.
+                  Empecé a programar hace 6 años cuando entré a la universidad,
+                  eventualmente deje de hacerlo un poco. Regresé dándome cuenta
+                  que el desarrollo web es un mundo increíblen lleno de retos y
+                  que constantemente cambia.
                   <br /> La programación es una arte para mi, encuentro
                   realmente interesante el proceso de crear algo desde cero solo
                   codeando con un computador.
