@@ -17,7 +17,7 @@ const projects = [
     img: Skycomeet,
     portada: PortadaSkycomeet,
     page: "/projects/skycomeet",
-    sitio: "https://skycomeet.com/",
+    sitio: "https://skycomeet.netlify.app/",
   },
   {
     id: uuidv4(),

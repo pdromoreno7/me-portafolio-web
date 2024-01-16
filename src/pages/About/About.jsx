@@ -29,21 +29,27 @@ export function About() {
               <h2 className="about__heading">Un FrontEnd developer</h2>
               <div className="about__info">
                 <PText>
-                  Soy de Cartagena, Colombia. Tengo experiencia creando
-                  interfaces para sitios y apps webs con HTML/CSS, React.js y
-                  vanilla JavaScript. Me gusta mucho todo lo que está
-                  relacionado a la tecnología, el arte y la ciencias. Siempre
-                  intento crear cosas visualmente atractivas y usables. Me
-                  agrada la idea de poder hacer algo que pueda ayudar a los
-                  demás, que aporte algo a este mundo.
+                  Soy de Cartagena, Colombia. Tengo una amplia experiencia en
+                  desarrollo web y mobile (Android y iOS). Me llama la atención
+                  mucho desarrollar con de React y React Native. Soy un
+                  apasionado de la tecnología y la ciencia de la computación.
+                  Tengo experiencia programando y mantenido complejas
+                  aplicaciones web y móviles, proporcionando soluciones TI para
+                  empresas públicas y privadas.
                   <br /> <br />
-                  Empecé a programar hace 6 años cuando entré a la universidad,
-                  eventualmente deje de hacerlo un poco. Regresé dándome cuenta
-                  que el desarrollo web es un mundo increíblen lleno de retos y
-                  que constantemente cambia.
-                  <br /> La programación es una arte para mi, encuentro
-                  realmente interesante el proceso de crear algo desde cero solo
-                  codeando con un computador.
+                  Durante los últimos dos años, he estado enfocado en el
+                  desarrollo frontend con librerías y frameworks como React js,
+                  Vue.js, Next js, Angular y mobile con React Native para iOS y
+                  Android. Otras tecnologías con las que he trabajado son HTML,
+                  CSS, Node js, Express js, PostgreSQL, Docker, TypeSrcript,
+                  Bootstrap y Drupal. Implementado GIT Flow, servicios REST,
+                  principios SOLID, unit testing, clean architecture,
+                  Integración continua (CI/CD) y micro servicios. Estoy
+                  constantemente adquiriendo nuevas habilidades y técnicas
+                  ágiles para mejorar en mi área personal tanto humana como
+                  profesional. Me encantaría trabajar en proyectos que me
+                  permitan aprovechar al máximo las últimas tecnologías del
+                  ecosistema de React.
                   <br /> <br />
                   Vivo constantemente aprendiendo algo nuevo, y me enfoco en ser
                   un activo valioso en cualquier equipo que trabaje. Me gusta

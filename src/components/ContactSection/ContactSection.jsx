@@ -61,7 +61,7 @@ export default function ContactSection() {
         <div className="contactSection__wrapper">
           <div className="left">
             <a
-              href="https://www.linkedin.com/in/pedro-moreno-alvarez/"
+              href="https://www.linkedin.com/in/pedromorenodev/"
               target="_blank "
             >
               <ContactInfoItem

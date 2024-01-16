@@ -43,6 +43,15 @@ export function SkillsSection() {
               "GIT",
               "REACT.JS",
               "Redux",
+              "Drupal",
+              "Node.js",
+              "Empress.js",
+              "Next.js",
+              "Angular",
+              "React Native",
+              "TypeScript",
+              "Worpress",
+              "Docker",
             ]}
           />
           {/* <AboutInfoItem
