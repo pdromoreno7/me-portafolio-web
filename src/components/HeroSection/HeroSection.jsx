@@ -73,7 +73,7 @@ export function HeroSection() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/pedro-moreno-alvarez/"
+                      href="https://www.linkedin.com/in/pedromorenodev/"
                       target="_blank"
                       rel="noreferrer"
                     >

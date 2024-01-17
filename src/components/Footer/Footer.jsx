@@ -93,7 +93,7 @@ export default function Footer() {
             links={[
               {
                 title: "Linkedin",
-                path: "https://www.linkedin.com/in/pedro-moreno-alvarez/",
+                path: "https://www.linkedin.com/in/pedromorenodev/",
               },
               // {
               //   title: 'webcifar@gmail.com',
