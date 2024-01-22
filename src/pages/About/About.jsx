@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import cv from "../../assets/doc/Cv-Pedro-Moreno.pdf";
 import { AboutPageStyles } from "./AboutPageStyles";
-import AboutImg from "../../assets/images/yo-WEB-2-black-vertical.jpg";
+import AboutImg from "../../assets/images/IMG_6260.JPG";
 import ContactBanner from "../../components/ContactBanner/ContactBanner";
 import { PText } from "../../components/PText/PText";
 import { SkillsSection } from "../../components/SkillsSection/SkillsSection";
